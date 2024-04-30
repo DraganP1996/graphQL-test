@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "example-user",
+    "MONGO_PASSWORD": "123",
+    "MONGO_DEFAULT_DATABASE": "messages",
+    "PORT": "8080"
+  }
+}
