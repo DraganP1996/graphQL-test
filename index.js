@@ -20,6 +20,7 @@ const MONGODB_CONNECTION_STRING = `mongodb+srv://${process.env.MONGO_USER}:${pro
 const authMiddleware = require("./middleware/auth");
 const { clearImage } = require("./utils/file");
 
+// HTTPS CERTIFICATE
 const privateKey = fs.readFileSync('server.key');
 const certificate = fs.readFileSync('server.cert');
 
