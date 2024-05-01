@@ -12,6 +12,6 @@
         "dest": "/index.js"
       }
     ],
-    "installCommand": "npm i -force"
+    "installCommand": "npm install --force"
   }
   
